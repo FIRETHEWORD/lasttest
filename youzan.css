@@ -1,0 +1,25 @@
+
+body{
+position: relative;
+left: 30px;
+top: 20px;
+}
+
+style {
+  display: none;
+}
+.phptpl-header .header-container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 1100px;
+  height: 70px;
+  zoom: 1;
+}
+.logo {
+  display: inline-block;
+  width: 72px;
+  height: 25px;
+  margin-top: 22.5px;
+  background-size: 72px 25px;
+  background-image: url(youzantubiao.png);
+}
