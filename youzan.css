@@ -11,9 +11,18 @@ style {
 .phptpl-header .header-container {
   box-sizing: border-box;
   margin: 0 auto;
-  width: 1100px;
   height: 70px;
   zoom: 1;
+}
+.phptpl-header {
+  max-width: 1500px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #ffffff;
+  border-bottom: 1px solid #ededed;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  z-index: 200;
 }
 .logo {
   display: inline-block;
@@ -22,4 +31,58 @@ style {
   margin-top: 22.5px;
   background-size: 72px 25px;
   background-image: url(youzantubiao.png);
+}
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+.phptpl-header .header-container .nav-link-container .nav-link {
+  float: left;
+  display: block;
+  width: 78px;
+  color: #999;
+  font-size: 10px;
+  font-family: 'PingFang SC';
+  font-weight: 300;
+  line-height: 13px;
+}
+.phptpl-header a {
+  text-decoration: none;
+}
+.phptpl-header .header-container .nav-list > li {
+  float: left;
+  display: inline-block;
+  height: 70px;
+  line-height: 70px;
+  padding: 0px 20px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+html, body {
+  color: #2c3a46;
+}
+.phptpl-header .header-container .nav-list .product-dropdown {
+  z-index: 200;
+}
+ul{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  list-style-type: disc;
+  color: #2c3a46
 }
